@@ -73,7 +73,7 @@ int main() {
     int arr[5] = {50, 20, 40, 10, 30};
     int n = 5;
 
-    // Bubble Sort Algorithm
+    // Bubble Sort of an Algorithm
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
