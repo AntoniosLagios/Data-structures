@@ -65,7 +65,7 @@ int main() {
     for (size_t i = 3; i < arr.size(); i++)
         arr[i] = i * 2;
 
-    // Print array
+    // Print the array
     for (int num : arr)
         cout << num << " ";
 
@@ -83,7 +83,7 @@ int main() {
         arr.push_back(i * 10);
     }
 
-    // Print array
+    // Print the array
     for (int num : arr) {
         cout << num << " ";
     }
@@ -189,7 +189,6 @@ int main() {
 //Using std::array for Fixed-Size but Dynamically Allocated Arrays
 #include <array>
 using namespace std;
-
 int main() {
     array<int, 5>* arr = new array<int, 5>{1, 2, 3, 4, 5};
 
