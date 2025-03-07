@@ -1,7 +1,6 @@
-//Singly Linked list
+//Create Singly Linked list
 #include <iostream>
 using namespace std;
-
 // Node structure
 struct Node {
     int data;
@@ -164,7 +163,6 @@ struct Node {
 class CircularLinkedList {
 public:
     Node* head;
-
     CircularLinkedList() {
         head = nullptr;
     }
