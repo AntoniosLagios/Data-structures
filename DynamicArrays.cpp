@@ -58,7 +58,7 @@ using namespace std;
 int main() {
     vector<int> arr = {1, 2, 3};
 
-    // Resize array dynamically
+    // Resize the array dynamically
     arr.resize(6); 
 
     // Assign new values
@@ -116,7 +116,7 @@ int* resizeArray(int* arr, int& size, int newSize) {
     for (int i = 0; i < size; i++) {
         newArr[i] = arr[i];  // Copy old values
     }
-    delete[] arr;  // Free old memory
+    delete[] arr;  //Free old memory
     size = newSize;
     return newArr;
 }
@@ -191,7 +191,6 @@ int main() {
 using namespace std;
 int main() {
     array<int, 5>* arr = new array<int, 5>{1, 2, 3, 4, 5};
-
     for (int num : *arr) {
         cout << num << " ";
     }
