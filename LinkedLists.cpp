@@ -79,7 +79,6 @@ int main() {
     return 0;
 }
 //Doubly linked list
-
 struct Node {
     int data;
     Node* next;
@@ -216,7 +215,6 @@ public:
         } while (temp != head);
     }
 };
-
 int main() {
     CircularLinkedList list;
     list.insert(10);
