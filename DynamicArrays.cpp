@@ -11,7 +11,6 @@ int main() {
         arr[i] = i * 10;
         cout << arr[i] << " ";
     }
-
     delete[] arr;  // Free memory
     return 0;
 }
@@ -108,7 +107,7 @@ int main() {
 
     return 0;
 }
-//Manually Resizing a Dynamic Array (new + realloc equivalent)
+//Manually Resizing a Dynamic Array (new + realloc equivalent).
 using namespace std;
 
 int* resizeArray(int* arr, int& size, int newSize) {
