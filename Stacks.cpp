@@ -1,7 +1,6 @@
 //Using std::stack from the STL
 #include <iostream>
 #include <stack>
-
 int main() {
     std::stack<int> s;
 
@@ -79,7 +78,6 @@ int main() {
     return 0;
 }
 //Implementing a stack using a inked list
-
 class Node {
 public:
     int data;
@@ -136,7 +134,6 @@ int main() {
     return 0;
 }
 //Reverse a string using a Stack
-
 void reverseString(std::string str) {
     std::stack<char> s;
 
