@@ -1,7 +1,6 @@
 //Queue Operations Using std::queue
 #include <iostream>
 #include <queue>
-
 int main() {
     std::queue<int> q;
 
@@ -78,9 +77,7 @@ int main() {
     return 0;
 }
 // Implementing a Queue Using std::deque
-#include <iostream>
 #include <deque>
-
 int main() {
     std::deque<int> dq;
 
