@@ -11,7 +11,6 @@ struct Node {
         next = nullptr;
     }
 };
-
 // Linked List class
 class LinkedList {
 public:
@@ -89,7 +88,6 @@ struct Node {
         next = prev = nullptr;
     }
 };
-
 class DoublyLinkedList {
 public:
     Node* head;
@@ -148,7 +146,6 @@ int main() {
     return 0;
 }
 //Circular linked list
-
 struct Node {
     int data;
     Node* next;
