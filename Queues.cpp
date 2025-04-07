@@ -47,7 +47,6 @@ int main() {
     pq.push(30);
     pq.push(10);
     pq.push(20);
-
     // Elements will be retrieved in descending order
     while (!pq.empty()) {
         std::cout << pq.top() << " ";
@@ -73,7 +72,6 @@ int main() {
         std::cout << minHeap.top() << " ";
         minHeap.pop();
     }
-
     return 0;
 }
 // Implementing a Queue Using std::deque
