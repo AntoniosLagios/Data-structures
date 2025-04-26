@@ -132,7 +132,6 @@ public:
         values[index] = value;
         occupied[index] = true;
     }
-
     string search(int key) {
         int index = hashFunction(key);
         int startIndex = index; // Keep track of the start index to avoid infinite loops
@@ -178,7 +177,6 @@ int main() {
 #include <map>
 
 using namespace std;
-
 int main() {
     map<int, string> hashTable; // Uses Red-Black Tree (ordered)
 
