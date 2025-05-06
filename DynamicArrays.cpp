@@ -120,6 +120,7 @@ int* resizeArray(int* arr, int& size, int newSize) {
     return newArr;
 }
 
+
 int main() {
     int size = 3;
     int* arr = new int[size]{1, 2, 3};
