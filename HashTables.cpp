@@ -102,6 +102,7 @@ int main() {
 #include <iostream>
 using namespace std;
 
+
 class HashTable {
 private:
     static const int SIZE = 10;
