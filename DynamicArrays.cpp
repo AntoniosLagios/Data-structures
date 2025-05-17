@@ -49,6 +49,7 @@ int main() {
 
     return 0;  // No need to manually delete, unique_ptr handles it
 }
+
 //Dynamically Resizing with realloc Equivalent (std::vector)
 #include <iostream>
 #include <vector>
