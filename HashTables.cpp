@@ -98,6 +98,7 @@ int main() {
 
     return 0;
 }
+
 //Hash table using open addressing (Linear Probing)
 #include <iostream>
 using namespace std;
